@@ -58,9 +58,9 @@ THREE.VREffect = function ( renderer, onError ) {
 
 	}
 
-	if ( navigator.getVRDevices ) {
+	if ( navigator.getVRDisplays ) {
 
-		navigator.getVRDevices().then( gotVRDevices );
+		navigator.getVRDisplays().then( gotVRDevices );
 
 	}
 
