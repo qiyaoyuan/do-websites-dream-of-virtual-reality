@@ -53,9 +53,10 @@ THREE.VRControls = function ( object, onError ) {
 
 	}
 
-	if ( navigator.getVRDevices ) {
+	//if ( navigator.getVRDevices ) {
+	if ( navigator.getVRDisplays) {
 
-		navigator.getVRDevices().then( gotVRDevices );
+		navigator.getVRDisplays().then( gotVRDevices );
 
 	}else{
 		alert ( 'dd', devices.length );
