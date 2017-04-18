@@ -4106,7 +4106,7 @@ window.WebVRConfig = Util.extend({
   DEFER_INITIALIZATION: false,
 
   // Enable the deprecated version of the API (navigator.getVRDevices).
-  ENABLE_DEPRECATED_API: false,
+  ENABLE_DEPRECATED_API: true,
 
   // Scales the recommended buffer size reported by WebVR, which can improve
   // performance.
